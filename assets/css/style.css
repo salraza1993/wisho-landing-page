@@ -653,4 +653,27 @@ footer .copy-writes-wrapper .social-links__list a:hover {
   background-color: var(--bs-accent);
   color: var(--bs-accent-color);
   text-decoration: none;
+}
+
+.hero-banner-section {
+  padding-block-end: 0;
+}
+.hero-banner-section .hero-banner-wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 170px;
+  background-color: var(--bs-gray-300);
+  border-radius: calc(var(--bs-border-radius) * 1.5);
+  background-image: url("./../images/hero-banner-image.png");
+  background-position: right center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  color: var(--bs-white);
+  padding-block: 1rem;
+  padding-inline: calc(1.5rem + 1vw) 1rem;
+}
+
+.page-content-section .page-content-wrapper h1, .page-content-section .page-content-wrapper h2, .page-content-section .page-content-wrapper h3, .page-content-section .page-content-wrapper h4, .page-content-section .page-content-wrapper h5, .page-content-section .page-content-wrapper h6 {
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */

@@ -561,3 +561,31 @@ footer {
     }
   }
 }
+
+
+.hero-banner-section {
+  padding-block-end: 0;
+  .hero-banner-wrapper {
+    position: relative;
+    width: 100%;
+    min-height: 170px;
+    background-color: var(--bs-gray-300);
+    border-radius: calc(var(--bs-border-radius) * 1.5);
+    background-image: url('./../images/hero-banner-image.png');
+    background-position: right center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    color: var(--bs-white);
+    padding-block: 1rem;
+    padding-inline: calc(1.5rem + 1vw) 1rem;
+  }
+}
+
+.page-content-section {
+  .page-content-wrapper {
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: bold;
+    }
+  }
+}
